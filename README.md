@@ -1,13 +1,117 @@
-# React + Vite
+# Dynamic Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite + Redux Toolkit** based dashboard that allows users to dynamically manage widgets across multiple categories.  
+The application demonstrates how to build a modular, scalable dashboard with charting features and a polished UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Dynamic JSON-driven dashboard**  
+  Categories and widgets are generated from a single JSON structure in Redux.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# dashboard-assignment
+- **Add / Edit / Remove widgets**  
+  Users can add new widgets, update existing ones, or remove them directly.
+
+- **Multiple chart types**  
+  - Donut chart  
+  - Pie chart  
+  - Bar chart  
+  - Line chart  
+  (powered by [Recharts](https://recharts.org))
+
+- **Manage Widgets Modal**  
+  Centralized place to toggle widgets on/off per category.
+
+- **Global Search**  
+  Search widgets across categories in real-time.
+
+- **Modern Navbar**  
+  - Search bar  
+  - Add Widget button  
+  - Manage Widgets button  
+  - Settings & More menus  
+  - Time filter dropdown with animations  
+  - Theme toggle (Light/Dark mode)
+
+- **Clean UI/UX**  
+  - Responsive layout  
+  - Smooth animations  
+  - Light and dark themes  
+  - Consistent styling across all components
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend Framework:** React 19 (with Vite)  
+- **State Management:** Redux Toolkit  
+- **Charts:** Recharts  
+- **Styling:** Custom CSS with theme variables  
+- **Build Tool:** Vite  
+
+---
+
+## 📂 Project Structure
+
+project-root/
+│
+├── public/ # Static assets
+├── src/
+│ ├── components/ # UI components (Navbar, Dashboard, Widgets, Modals)
+│ ├── store/ # Redux Toolkit slice (dashboardSlice.js)
+│ ├── App.jsx # Main application entry
+│ ├── main.jsx # Vite entry point
+│ └── index.css # Global styles
+│
+├── package.json # Dependencies & scripts
+└── vite.config.js # Vite configuration
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/nikhilmujeeb/dashboard-assignment
+cd dashboard-assignment
+
+2. Install Dependencies
+bash
+npm install
+
+3. Run Development Server
+bash
+npm run dev
+Now open http://localhost:5173 in your browser.
+
+4. Build for Production
+bash
+npm run build
+
+5. Preview Production Build
+bash
+npm run preview
+
+📊 Example Widgets
+Cloud Accounts (Donut Chart)
+Shows percentage split between connected and not connected accounts.
+
+Cloud Account Risk Assessment (Pie Chart)
+Displays risk distribution: Failed, Warning, Not Available, Passed.
+
+Registry Scan (Line Chart)
+Example of time-series data.
+
+## 🎨 Screenshots
+
+![Add Widget](Add%20Widget.png)
+![Dark Mode](Dark%20Mode.png)
+![Dashboard](Dashboard.png)
+![Edit Widget](Edit%20Widget.png)
+![Manage Widget](Manage%20Widget.png)
+
+
+🤝 Contributing
+
+This project was created for an assignment/demo purpose.
