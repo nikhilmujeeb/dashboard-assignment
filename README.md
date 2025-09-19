@@ -105,13 +105,11 @@ Example of time-series data.
 
 ## 🎨 Screenshots
 
-![Add Widget](Add%20Widget.png)
-![Dark Mode](Dark%20Mode.png)
-![Dashboard](Dashboard.png)
-![Edit Widget](Edit%20Widget.png)
-![Manage Widget](Manage%20Widget.png)
-
+![Add Widget](./Add%20Widget.png)
+![Dark Mode](./Dark%20Mode.png)
+![Dashboard](./Dashboard.png)
+![Edit Widget](./Edit%20Widget.png)
+![Manage Widget](./Manage%20Widget.png)
 
 🤝 Contributing
-
 This project was created for an assignment/demo purpose.
