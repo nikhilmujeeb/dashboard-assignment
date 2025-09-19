@@ -3,6 +3,10 @@
 This project is a **React + Vite + Redux Toolkit** based dashboard that allows users to dynamically manage widgets across multiple categories.  
 The application demonstrates how to build a modular, scalable dashboard with charting features and a polished UI.
 
+
+### Live Demo
+Check out the live version of this project here: https://dashboard-assignment-om6m.onrender.com
+
 ---
 
 ## ✨ Features
